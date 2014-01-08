@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication2.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Riding and Racing Club<%: Page.Title %></title>
+	<link rel="stylesheet" type="text/css" href="~/Content/main.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/Scripts/custom.js"></script>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <form runat="server">
+        <div class="section header">
+		    <div class="container no-border header">
+			    <ul id="mainNav">
+				    <li id="home">
+					    <a class="header" href="#">Home</a>
+				    </li>
+				    <li id="theclub" class="has-subnav">
+	        		    <a class="header" href="~/TheClub/">The Club</a>
+	        		    <ul id="about-subnav" class="subnav-levelone cssfallback">
+	        			    <li>
+	        				    <a class="header sub" href="#">About Us</a>
+	        			    </li>
+	        			    <li>
+	        				    <a class="header sub" href="#">Roster</a>
+                            </li>
+				            <li>
+	        		            <a class="header sub" href="#">Gallery</a>
+				            </li>
+	        			    <li>
+				            <li>
+					            <a class="header sub" href="#">FAQ</a>
+				            </li>
+	        		    </ul>
+				    </li>
+				    <li id="teams" class="has-subnav">
+	        		    <a class="header no-href">Teams</a>
+			    	    <ul id="teams-subnav" class="subnav-levelone cssfallback">
+			    		    <li>
+			    			    <a class="header sub" href="/team/huntseat/">Hunt Seat Team</a>
+			    			    <ul class="subnav-leveltwo cssfallback">
+			    				    <li>
+			    					    <a class="header sub two" href="/team/huntseat/roster.aspx">Roster</a>
+			    				    </li>
+			    				    <li>
+			    					    <a class="header sub two" href="/team/huntseat/points.aspx">Points</a>
+			    				    </li>
+			    				    <li>
+			    					    <a class="header sub two" href="#">Membership</a>
+			    				    </li>
+			    			    </ul>
+			    		    </li>
+			    		    <li>
+			    			    <a class="header sub" href="/team/western/">Western Team</a>
+			    			    <ul class="subnav-leveltwo cssfallback">
+			    				    <li>
+			    					    <a class="header sub two" href="/team/western/roster.aspx">Roster</a>
+			    				    </li>
+			    				    <li>
+			    					    <a class="header sub two" href="/team/western/points.aspx">Points</a>
+			    				    </li>
+			    				    <li>
+			    					    <a class="header sub two" href="#">Membership</a>
+			    				    </li>
+			    			    </ul>
+			    		    </li>
+			    		    <li>
+			    			    <a class="header sub" href="/team/saddleseat/">Saddle Seat Team</a>
+			    			    <ul class="subnav-leveltwo cssfallback">
+			    				    <li>
+			    					    <a class="header sub two" href="/team/saddleseat/roster.aspx">Roster</a>
+			    				    </li>
+			    				    <li>
+			    					    <a class="header sub two" href="/team/saddleseat/points.aspx">Points</a>
+			    				    </li>
+			    				    <li>
+			    					    <a class="header sub two" href="#">Membership</a>
+			    				    </li>
+			    			    </ul>
+			    		    </li>
+			    	    </ul>
+				    </li>
+				    <li id="nav-logo">        
+			            <div class="logo_wrap">
+			                <img id="logo" src="/images/pennant.svg"/>
+			            </div>
+				    </li>
+				    <li id="news">
+	        		    <a class="header" href="#">News</a>
+				    </li>
+				    <li id="apparel">
+	        		    <a class="header" href="#">Apparel</a>
+				    </li>
+	        		<li id="sponsorship">
+	        			<a class="header" href="#">Sponsorship</a>
+	        		</li>
+			    </ul>	
+	        </div>
+	    </div>
+	    <div class="section" style="margin-bottom: 0;">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+	    <div class="section footer">
+		    <div class="container no-border">
+			    UofL Riding &amp; Equestrian Club &copy; 2013 <br>
+			    Designed and Developed by: <a href="mailto:zachw38@gmail.com">Zach Woodward</a>
+		    </div>
+	    </div>
+
+	    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	    <script type="text/javascript">
+	        $(window).ready(function () {
+	            $('ul.subnav-levelone').removeClass('cssfallback');
+	            $('ul.subnav-leveltwo').removeClass('cssfallback');
+
+	            $('li').has('ul').hover(function () {
+	                $(this).children('ul').slideDown(500);
+	            }, function () {
+	                $(this).children('ul').slideUp(500).css('display', 'none');
+	            });
+	        })
+	    </script>
+        <asp:ContentPlaceHolder ID="ExtraJavascript" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

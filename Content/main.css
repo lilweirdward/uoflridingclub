@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/LeagueGothic/leaguegothic-regular-webfont.eot');
+    src: url('fonts/LeagueGothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LeagueGothic/leaguegothic-regular-webfont.woff') format('woff'),
+         url('fonts/LeagueGothic/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('fonts/LeagueGothic/leaguegothic-regular-webfont.svg#league_gothic_italicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	background-color: #000000;
+}
+
+body {
+	margin: 0;
+	font-family: Helvetica;
+	font-size: 100%;
+	background-color: #191A18;
+}
+
+ul {
+	margin: 0;
+	padding: 0;  
+	list-style: none;
+	position: relative;
+	z-index: 1;
+}
+
+ul li {
+	display: inline;
+	text-align: center;
+}
+
+li:hover > ul.cssfallback {
+	display: block;
+}
+
+ul.subnav-levelone {
+	position: absolute;
+	top: 100%;
+	display: none;
+}
+
+ul#teams-subnav {
+	left: 25%;
+}
+
+ul#about-subnav {
+	left: 10%;
+}
+
+li.has-subnav:hover > ul.subnav-levelone {
+	background-color: #9B0000;
+	border: 1px solid black;
+	padding: 0 1rem;
+}
+
+ul.subnav-levelone li {
+	display: block;
+	float: left;
+}
+
+ul.subnav-levelone ul {
+	display: none;
+}
+
+	ul.subnav-levelone li:hover > ul {
+		background-color: #9B0000;
+		border: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+
+	ul.subnav-levelone li:hover {
+		background-color: rgba(0,0,0,0.35);
+	}
+
+ul.subnav-levelone ul {
+	position: absolute; 
+	top: 100%;
+	left: 5%;
+}
+	ul.subnav-levelone ul li {
+		display: block;
+		float: left;
+	}
+
+	ul.subnav-levelone ul li:hover {
+		background-color: transparent;
+	}
+
+	ul.subnav-levelone ul li:hover > a {
+		text-decoration: underline;
+	}
+
+#magic-line {
+	position: absolute;
+	background-color: rgba(0,0,0,0.35);
+	background-repeat: repeat-y;
+	background-size: 100%;
+	border-bottom: 1px solid black;
+	z-index: -1;
+	height: 100%;
+}	
+
+.section {
+	margin: 2rem 0;
+	padding: 0;
+	clear: both;
+}
+
+.section.header {
+	margin: 0;
+	background-image: url('/images/background.jpg');
+	background-size: auto 100%;
+	text-align: center;
+}
+
+.section.footer {
+	margin: 0;
+	color: white;
+	text-align: center;
+}
+
+.container {
+	max-width: 60rem;
+	margin: 0 auto;
+	padding: 3rem 1.5rem;
+	border: 1px solid black;
+	background-color: white;
+	box-shadow: 0.5rem 0.5rem 0.5rem #000;
+}
+
+.container.no-border {
+	border: none;
+	background-color: transparent;
+	position: relative;
+	padding: 0 1.5rem;
+	box-shadow: none;
+}
+
+.container.header {
+    max-width: 70rem;
+}
+
+.container.logo {
+	background-image: url('/images/main-image.jpg');
+    background-size: 100% 100%;
+	min-height: 20rem;
+}
+
+.container.logo.about {
+	background-image: url('/images/about-image.jpg');
+}
+
+.container.logo.huntseat {
+    background-image: url('/images/hunt-seat.jpg');
+    background-size: 100% auto;
+    background-position: 0 75%;
+}
+
+.container.logo.saddleseat {
+    background-image: url('/images/saddle-seat.jpg');
+}
+
+.container.logo.western {
+    background-image: url('/images/western-team.jpg');
+    background-size: 100% auto;
+    background-position: 0 45%;
+}
+
+.footer {
+	font-size: 0.75rem;
+	color: white;
+	padding: 1rem 0;
+}
+
+.footer a, .footer a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.row {
+	overflow: auto;
+    clear: both;
+}
+
+.column {
+	position: relative;
+	float: left;
+	width: 100%;
+	min-height: 0.0625rem;
+	padding: 0.625rem;
+}
+
+.size-12 {
+	max-width: 95%;
+	text-align: center;
+}
+
+.size-6 {
+    text-align: center;
+	width: 46.42857142857143%;
+}
+
+.size-4 {
+    text-align: center;
+	width: 29.76190476190476%;
+}
+
+a.header {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 3rem 0;
+	width: 110px;
+	margin: 0;
+	font-family: 'League Gothic';
+	letter-spacing: 0.125rem;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+}
+
+a.header.sub {
+	padding: 1.5rem 0.5rem;
+	width: 80px;
+	font-size: 1rem;
+}
+
+a.header.sub:hover {
+	background-color: transparent;
+	background-image: none;
+}
+
+a.header.sub.two {
+	padding: 1rem 0.5rem;
+}
+
+.no-href {
+    cursor: default;
+}
+
+#logo {
+    width: 150px;
+
+}
+.logo_wrap{
+    display: inline-block; 
+    height: 115px;
+    vertical-align:top;
+    overflow:visible;
+}
+
+img.t-shirt {
+	width: 30%;
+    float: left;
+    padding: 0 4rem 2rem 0;
+}
+
+.column > img.t-shirt {
+    width: 90%;
+    float: none;
+    padding: 0;
+}
