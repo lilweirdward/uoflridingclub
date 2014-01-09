@@ -17,7 +17,7 @@
 		    <div class="container no-border header">
 			    <ul id="mainNav">
 				    <li id="home">
-					    <a class="header" href="#">Home</a>
+					    <a class="header" href="/">Home</a>
 				    </li>
 				    <li id="theclub" class="has-subnav">
 	        		    <a class="header" href="~/TheClub/">The Club</a>
