@@ -27,3 +27,18 @@ C:\Users\zachw38\Documents\Visual Studio 2012\Projects\EquineClub\EquineClub\bin
 C:\Users\zachw38\Documents\Visual Studio 2012\Projects\EquineClub\EquineClub\bin\DotNetOpenAuth.AspNet.xml
 C:\Users\zachw38\Documents\Visual Studio 2012\Projects\EquineClub\EquineClub\obj\Debug\EquineClub.dll
 C:\Users\zachw38\Documents\Visual Studio 2012\Projects\EquineClub\EquineClub\obj\Debug\EquineClub.pdb
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\EquineClub.dll.config
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\EquineClub.dll
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\EquineClub.pdb
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\EntityFramework.xml
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\DotNetOpenAuth.Core.xml
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\obj\Debug\EquineClub.csprojResolveAssemblyReference.cache
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\obj\Debug\EquineClub.dll
+C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\obj\Debug\EquineClub.pdb
