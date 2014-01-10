@@ -150,30 +150,22 @@
     <Content Include="images\wide-header.jpg" />
     <Content Include="images\wide-header.png" />
     <Content Include="packages.config" />
-    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\custom.js" />
     <Content Include="team\huntseat\Default.aspx" />
-    <Content Include="team\huntseat\points.aspx" />
-    <Content Include="team\huntseat\roster.aspx" />
+    <Content Include="team\huntseat\points\Default.aspx" />
+    <Content Include="team\huntseat\roster\Default.aspx" />
     <Content Include="team\saddleseat\Default.aspx" />
-    <Content Include="team\saddleseat\points.aspx" />
-    <Content Include="team\saddleseat\roster.aspx" />
+    <Content Include="team\saddleseat\points\Default.aspx" />
+    <Content Include="team\saddleseat\roster\Default.aspx" />
     <Content Include="team\western\Default.aspx" />
-    <Content Include="team\western\points.aspx" />
-    <Content Include="team\western\roster.aspx" />
-    <Content Include="theclub\Default.aspx" />
+    <Content Include="team\western\points\Default.aspx" />
+    <Content Include="team\western\roster\Default.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -192,19 +184,19 @@
     <Compile Include="team\huntseat\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="team\huntseat\points.aspx.cs">
-      <DependentUpon>points.aspx</DependentUpon>
+    <Compile Include="team\huntseat\points\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="team\huntseat\points.aspx.designer.cs">
-      <DependentUpon>points.aspx</DependentUpon>
+    <Compile Include="team\huntseat\points\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="team\huntseat\roster.aspx.cs">
-      <DependentUpon>roster.aspx</DependentUpon>
+    <Compile Include="team\huntseat\roster\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="team\huntseat\roster.aspx.designer.cs">
-      <DependentUpon>roster.aspx</DependentUpon>
+    <Compile Include="team\huntseat\roster\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="team\saddleseat\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -213,19 +205,19 @@
     <Compile Include="team\saddleseat\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="team\saddleseat\points.aspx.cs">
-      <DependentUpon>points.aspx</DependentUpon>
+    <Compile Include="team\saddleseat\points\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="team\saddleseat\points.aspx.designer.cs">
-      <DependentUpon>points.aspx</DependentUpon>
+    <Compile Include="team\saddleseat\points\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="team\saddleseat\roster.aspx.cs">
-      <DependentUpon>roster.aspx</DependentUpon>
+    <Compile Include="team\saddleseat\roster\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="team\saddleseat\roster.aspx.designer.cs">
-      <DependentUpon>roster.aspx</DependentUpon>
+    <Compile Include="team\saddleseat\roster\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="team\western\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -234,30 +226,34 @@
     <Compile Include="team\western\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="team\western\points.aspx.cs">
-      <DependentUpon>points.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="team\western\points.aspx.designer.cs">
-      <DependentUpon>points.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="team\western\roster.aspx.cs">
-      <DependentUpon>roster.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="team\western\roster.aspx.designer.cs">
-      <DependentUpon>roster.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="theclub\Default.aspx.cs">
+    <Compile Include="team\western\points\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="theclub\Default.aspx.designer.cs">
+    <Compile Include="team\western\points\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="team\western\roster\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="team\western\roster\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="team\huntseat\membership\" />
+    <Folder Include="team\saddleseat\membership\" />
+    <Folder Include="team\western\membership\" />
+    <Folder Include="theclub\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site.Master" />

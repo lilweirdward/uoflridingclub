@@ -1,4 +1,4 @@
-﻿<%@ Page Title=" | Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication2._Default" %>
+﻿<%@ Page Title=" | Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication2.About.Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -23,7 +23,7 @@
 <asp:Content ID="JavascriptContent" ContentPlaceHolderID="ExtraJavascript" runat="server">
 
     <script type="text/javascript">
-        $('li#home').addClass('current_page_item');
+        $('li#theclub').addClass('current_page_item');
     </script>
 
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title=" | Saddle Seat Points" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="points.aspx.cs" Inherits="WebApplication2.team.saddleseat.points" %>
+﻿<%@ Page Title=" | Saddle Seat Points" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication2.team.saddleseat.points" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 

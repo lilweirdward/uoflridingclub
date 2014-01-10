@@ -1,4 +1,4 @@
-﻿<%@ Page Title=" | Hunt Seat Roster" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="roster.aspx.cs" Inherits="WebApplication2.team.huntseat.roster" %>
+﻿<%@ Page Title=" | Hunt Seat Roster" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication2.team.huntseat.roster" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 

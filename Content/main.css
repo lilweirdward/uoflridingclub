@@ -44,11 +44,11 @@ ul.subnav-levelone {
 }
 
 ul#teams-subnav {
-	left: 25%;
+	left: 13.5%;
 }
 
-ul#about-subnav {
-	left: 10%;
+ul#theclub-subnav {
+	left: 4%;
 }
 
 li.has-subnav:hover > ul.subnav-levelone {

@@ -16,22 +16,15 @@
         <div class="section header">
 		    <div class="container no-border header">
 			    <ul id="mainNav">
-				    <li id="home">
-					    <a class="header" href="/">Home</a>
-				    </li>
 				    <li id="theclub" class="has-subnav">
-	        		    <a class="header" href="~/TheClub/">The Club</a>
-	        		    <ul id="about-subnav" class="subnav-levelone cssfallback">
-	        			    <li>
-	        				    <a class="header sub" href="#">About Us</a>
-	        			    </li>
+	        		    <a class="header" href="/">The Club</a>
+	        		    <ul id="theclub-subnav" class="subnav-levelone cssfallback">
 	        			    <li>
 	        				    <a class="header sub" href="#">Roster</a>
                             </li>
 				            <li>
-	        		            <a class="header sub" href="#">Gallery</a>
+	        		            <a class="header sub" href="#">Membership</a>
 				            </li>
-	        			    <li>
 				            <li>
 					            <a class="header sub" href="#">FAQ</a>
 				            </li>
@@ -44,10 +37,10 @@
 			    			    <a class="header sub" href="/team/huntseat/">Hunt Seat Team</a>
 			    			    <ul class="subnav-leveltwo cssfallback">
 			    				    <li>
-			    					    <a class="header sub two" href="/team/huntseat/roster.aspx">Roster</a>
+			    					    <a class="header sub two" href="/team/huntseat/roster/">Roster</a>
 			    				    </li>
 			    				    <li>
-			    					    <a class="header sub two" href="/team/huntseat/points.aspx">Points</a>
+			    					    <a class="header sub two" href="/team/huntseat/points/">Points</a>
 			    				    </li>
 			    				    <li>
 			    					    <a class="header sub two" href="#">Membership</a>
@@ -58,10 +51,10 @@
 			    			    <a class="header sub" href="/team/western/">Western Team</a>
 			    			    <ul class="subnav-leveltwo cssfallback">
 			    				    <li>
-			    					    <a class="header sub two" href="/team/western/roster.aspx">Roster</a>
+			    					    <a class="header sub two" href="/team/western/roster/">Roster</a>
 			    				    </li>
 			    				    <li>
-			    					    <a class="header sub two" href="/team/western/points.aspx">Points</a>
+			    					    <a class="header sub two" href="/team/western/points/">Points</a>
 			    				    </li>
 			    				    <li>
 			    					    <a class="header sub two" href="#">Membership</a>
@@ -72,10 +65,10 @@
 			    			    <a class="header sub" href="/team/saddleseat/">Saddle Seat Team</a>
 			    			    <ul class="subnav-leveltwo cssfallback">
 			    				    <li>
-			    					    <a class="header sub two" href="/team/saddleseat/roster.aspx">Roster</a>
+			    					    <a class="header sub two" href="/team/saddleseat/roster/">Roster</a>
 			    				    </li>
 			    				    <li>
-			    					    <a class="header sub two" href="/team/saddleseat/points.aspx">Points</a>
+			    					    <a class="header sub two" href="/team/saddleseat/points/">Points</a>
 			    				    </li>
 			    				    <li>
 			    					    <a class="header sub two" href="#">Membership</a>
@@ -84,13 +77,16 @@
 			    		    </li>
 			    	    </ul>
 				    </li>
-				    <li id="nav-logo">        
-			            <div class="logo_wrap">
-			                <img id="logo" src="/images/pennant.svg"/>
-			            </div>
-				    </li>
 				    <li id="news">
 	        		    <a class="header" href="#">News</a>
+				    </li>
+				    <li id="nav-logo">        
+			            <div class="logo_wrap">
+			                <a href="/"><img id="logo" src="/images/pennant.svg"/></a>
+			            </div>
+				    </li>
+				    <li id="gallery">
+	        		    <a class="header" href="#">Gallery</a>
 				    </li>
 				    <li id="apparel">
 	        		    <a class="header" href="#">Apparel</a>

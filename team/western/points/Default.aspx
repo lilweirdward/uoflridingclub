@@ -1,4 +1,4 @@
-﻿<%@ Page Title=" | Western Team Points" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="points.aspx.cs" Inherits="WebApplication2.team.western.points" %>
+﻿<%@ Page Title=" | Western Team Points" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication2.team.western.points" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 

@@ -1,8 +1,8 @@
-﻿<%@ Page Title=" | Hunt Seat Points" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="points.aspx.cs" Inherits="WebApplication2.team.huntseat.points" %>
+﻿<%@ Page Title=" | Saddle Seat Roster" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication2.team.saddleseat.roster" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="container logo huntseat" style="border-bottom: none;">
+    <div class="container logo saddleseat" style="border-bottom: none;">
 	</div>
 	<div class="container">
 		<h1>Welcome!</h1>
