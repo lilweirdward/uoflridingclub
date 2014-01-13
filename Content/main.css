@@ -181,9 +181,23 @@ ul.subnav-levelone ul {
 	text-decoration: none;
 }
 
+div.gallery {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
 .row {
 	overflow: auto;
     clear: both;
+}
+
+.row.pictures > .column {
+    height: 10rem;
+}
+
+.row.pictures.main > .column {
+    height: 25rem;
 }
 
 .column {
@@ -192,21 +206,31 @@ ul.subnav-levelone ul {
 	width: 100%;
 	min-height: 0.0625rem;
 	padding: 0.625rem;
+	text-align: center;
 }
 
 .size-12 {
 	max-width: 95%;
-	text-align: center;
 }
 
 .size-6 {
-    text-align: center;
 	width: 46.42857142857143%;
 }
 
 .size-4 {
-    text-align: center;
 	width: 29.76190476190476%;
+}
+
+.size-3 {
+    padding: 0.25rem;
+    padding-left: 0;
+    width: 24.58333333333333%;
+}
+
+.size-2 {
+    padding: 0.125rem;
+    padding-left: 0;
+    width: 16.25%;
 }
 
 a.header {
@@ -262,4 +286,16 @@ img.t-shirt {
     width: 90%;
     float: none;
     padding: 0;
+}
+
+img.gallery {
+    max-width: 90%;
+    max-height: 90%;
+    padding: 0;
+    cursor: pointer;
+}
+
+img.gallery.main {
+    max-width: 85%;
+    cursor: default;
 }
