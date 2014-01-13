@@ -200,6 +200,10 @@ div.gallery {
     height: 25rem;
 }
 
+.row.set-height {
+    min-height: 18rem;
+}
+
 .column {
 	position: relative;
 	float: left;
@@ -231,6 +235,24 @@ div.gallery {
     padding: 0.125rem;
     padding-left: 0;
     width: 16.25%;
+}
+
+.button {
+	display: inline-block;
+	padding: 0.75rem 1.875rem;
+	border-radius: 0.25rem;
+	background-color: #BA0202;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #E00000;
+    text-decoration: none;
 }
 
 a.header {
@@ -279,13 +301,24 @@ a.header.sub.two {
 img.t-shirt {
 	width: 30%;
     float: left;
-    padding: 0 4rem 2rem 0;
+    margin: 0 4rem 2rem 0;
+}
+
+img.t-shirt.border {
+    border: 2px solid black;
+    max-height: 20rem;
 }
 
 .column > img.t-shirt {
     width: 90%;
     float: none;
     padding: 0;
+}
+
+.column > img.t-shirt.border {
+    float: none;
+    width: 90%;
+    margin: 0;
 }
 
 img.gallery {
