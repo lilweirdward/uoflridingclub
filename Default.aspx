@@ -10,12 +10,33 @@
 
 		<p>Sed diam mauris, tincidunt ac nulla a, aliquet sollicitudin justo. Nam lorem mi, ultricies feugiat nisl vitae, fringilla ultricies turpis. Suspendisse quis nulla condimentum, egestas leo quis, vehicula enim. Curabitur vel enim sit amet nisi luctus placerat. Mauris eu aliquet leo, sed blandit nibh. Duis vulputate, tortor eget vestibulum laoreet, leo urna facilisis dui, ut gravida dolor risus eget neque. Donec gravida egestas turpis. Sed vel ultricies elit, sed tristique quam. Donec egestas tincidunt turpis, eu sagittis est pharetra eget. Suspendisse venenatis auctor enim et luctus. Pellentesque vestibulum lacinia viverra. Nam luctus neque at malesuada porta. Aenean feugiat ornare mi eget ornare. In ullamcorper adipiscing leo, at semper tortor accumsan in. Vestibulum cursus mauris elementum lacus aliquam suscipit.</p>
 
-		<p>Quisque at tempus ipsum, vel elementum mi. Vestibulum consequat convallis quam vitae sollicitudin. Donec sed diam ut eros luctus rutrum. Sed ac ligula in libero cursus blandit. Aenean id sodales felis. Vivamus malesuada a nisi vel bibendum. Pellentesque nunc enim, porttitor ut urna vel, ullamcorper vehicula risus. Quisque accumsan dolor lorem, at egestas lorem rutrum id. Cras odio sem, eleifend et elit eget, dapibus pulvinar eros. In mollis interdum massa, in tristique neque molestie ut. Cras congue, quam nec lacinia fringilla, orci velit lobortis dolor, eget vulputate mi lorem at mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu felis a justo dapibus eleifend. In nulla lacus, tincidunt ac nunc eget, iaculis eleifend quam.</p>
+		<h1>About Us</h1>
 
-		<p>Sed quis varius velit, nec dictum turpis. Maecenas ut mi aliquet, imperdiet diam blandit, mollis eros. Donec sit amet volutpat massa, ut iaculis lorem. In porta nisl ut rhoncus molestie. Donec et viverra mi. Cras tempus orci et iaculis iaculis. Pellentesque sed tincidunt tortor, porttitor euismod ipsum. Duis venenatis eros vel libero tincidunt ultrices. Nunc sit amet enim massa. Mauris mollis ipsum ut dapibus pulvinar. Quisque sit amet risus sed nisi dictum sodales.</p>
+        <p>
+            Bacon ipsum dolor sit amet eu ut t-bone voluptate reprehenderit. Flank leberkas frankfurter kevin ham dolor pancetta. Kevin pork loin ham hock deserunt ribeye cupidatat ea. Minim chuck beef, laboris mollit pork chop aliqua enim ex. Fugiat venison labore occaecat, adipisicing ut in tongue. Labore tongue commodo eiusmod doner frankfurter. Ullamco corned beef mollit occaecat sirloin pork belly ribeye sed deserunt shankle.
+        </p>
+        <p>
+            Nisi et sirloin ut corned beef consequat. Qui mollit jowl pariatur kevin ea proident. Flank salami jerky biltong beef. Bacon pariatur dolore strip steak. Bresaola jowl magna shankle cupidatat turkey fatback nulla cow filet mignon incididunt anim ground round pig laboris. Ea ut brisket shankle, turkey nostrud consectetur bacon qui tempor voluptate.
+        </p>
 
-		<p>Proin mattis faucibus mi id viverra. Proin vitae facilisis metus. Morbi non erat vel nisl volutpat lobortis. Quisque ultricies, felis eu semper vestibulum, ipsum eros bibendum lacus, vitae aliquam lacus arcu vitae metus. Duis eleifend ipsum elit, at ultricies tortor sodales et. Quisque placerat magna id hendrerit lobortis. Sed vitae velit feugiat, ultricies leo eu, dignissim erat. Vestibulum sagittis posuere erat id sagittis. Ut auctor orci ullamcorper velit viverra, sit amet venenatis lacus pretium. Nulla hendrerit, tortor quis dapibus scelerisque, leo justo sollicitudin purus, id cursus augue arcu ut turpis.</p>
-		<h1 style="color: red;">DISCLAIMER: THIS SUBDOMAIN IS FOR TESTING PURPOSES ONLY. ALL IMAGES ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS</h1>
+        <h1>Contact Us</h1>
+
+        <div class="row">
+            <div class="column size-4">
+                <h2>Email</h2>
+                <p>Info would go here</p>
+            </div>
+            <div class="column size-4">
+                <h2>Phone</h2>
+                <p>Info would go here</p>
+            </div>
+            <div class="column size-4">
+                <h2>Mail</h2>
+                <p>Info would go here</p>
+            </div>
+        </div>
+        
+        <h1 style="color: red;">DISCLAIMER: THIS SUBDOMAIN IS FOR TESTING PURPOSES ONLY. ALL IMAGES ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS</h1>
 	</div>
 
 </asp:Content>

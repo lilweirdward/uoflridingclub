@@ -309,8 +309,6 @@ img.t-shirt.border {
     max-height: 20rem;
 }
 
-/* comment for saving */
-
 .column > img.t-shirt {
     width: 90%;
     float: none;
@@ -333,4 +331,16 @@ img.gallery {
 img.gallery.main {
     max-width: 85%;
     cursor: default;
+}
+
+.hide-p {
+    display: none;
+}
+
+.faq > h2 {
+    color: darkred;
+}
+
+.faq > h2:hover {
+    cursor: pointer;
 }
