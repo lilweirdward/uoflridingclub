@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace EquineClub.news
+namespace EquineClub.news.blog
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class post : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

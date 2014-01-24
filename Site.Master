@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
     <title>Riding and Racing Club<%: Page.Title %></title>
 	<link rel="stylesheet" type="text/css" href="~/Content/main.css">
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery-1.7.1.min.js"></script>
 	<script type="text/javascript" src="/Scripts/custom.js"></script>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
@@ -77,8 +77,16 @@
 			    		    </li>
 			    	    </ul>
 				    </li>
-				    <li id="news">
-	        		    <a class="header" href="/news/">News</a>
+				    <li id="news" class="has-subnav">
+	        		    <a class="header no-href">News</a>
+                        <ul id="news-subnav" class="subnav-levelone cssfallback">
+	        			    <li>
+	        				    <a class="header sub" href="/news/blog/">Blog</a>
+                            </li>
+				            <li>
+	        		            <a class="header sub" href="/news/events/">Events</a>
+				            </li>
+	        		    </ul>
 				    </li>
 				    <li id="nav-logo">        
 			            <div class="logo_wrap">

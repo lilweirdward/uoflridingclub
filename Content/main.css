@@ -51,6 +51,10 @@ ul#theclub-subnav {
 	left: 4%;
 }
 
+ul#news-subnav {
+    left: 28%;
+}
+
 li.has-subnav:hover > ul.subnav-levelone {
 	background-color: #9B0000;
 	border: 1px solid black;
@@ -217,6 +221,12 @@ div.gallery {
 	max-width: 95%;
 }
 
+.size-9 {
+    padding: 0.25rem;
+    padding-left: 0;
+    width: 72.41666666666667%;
+}
+
 .size-6 {
 	width: 46.42857142857143%;
 }
@@ -255,6 +265,20 @@ div.gallery {
     text-decoration: none;
 }
 
+a {
+    color: #BA0202;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #BA0202;
+}
+
 a.header {
 	color: white;
 	text-decoration: none;
@@ -266,6 +290,7 @@ a.header {
 	letter-spacing: 0.125rem;
 	font-size: 1.25rem;
 	text-transform: uppercase;
+    font-weight: normal;
 }
 
 a.header.sub {
@@ -333,6 +358,16 @@ img.gallery.main {
     cursor: default;
 }
 
+img.blog {
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+
+span.smaller {
+    font-size: 0.75rem;
+}
+
 .hide-p {
     display: none;
 }
@@ -343,4 +378,12 @@ img.gallery.main {
 
 .faq > h2:hover {
     cursor: pointer;
+}
+
+.justify {
+    text-align: justify;
+}
+
+hr {
+    margin: 4rem 0;
 }

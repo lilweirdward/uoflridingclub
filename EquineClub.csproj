@@ -182,8 +182,10 @@
     <Content Include="images\western-team.JPG" />
     <Content Include="images\wide-header.jpg" />
     <Content Include="images\wide-header.png" />
-    <Content Include="news\Default.aspx" />
-    <Content Include="news\event.aspx" />
+    <Content Include="news\blog\Default.aspx" />
+    <Content Include="news\blog\post.aspx" />
+    <Content Include="news\events\Default.aspx" />
+    <Content Include="news\events\event.aspx" />
     <Content Include="packages.config" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -204,9 +206,9 @@
     <Content Include="team\western\points\Default.aspx" />
     <Content Include="team\western\roster\Default.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="theclub\FAQ\Default.aspx" />
-    <Content Include="theclub\Membership\Default.aspx" />
-    <Content Include="theclub\Roster\Default.aspx" />
+    <Content Include="theclub\faq\Default.aspx" />
+    <Content Include="theclub\membership\Default.aspx" />
+    <Content Include="theclub\roster\Default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -227,18 +229,32 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="news\Default.aspx.cs">
+    <Compile Include="news\blog\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="news\Default.aspx.designer.cs">
+    <Compile Include="news\blog\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="news\event.aspx.cs">
+    <Compile Include="news\blog\post.aspx.cs">
+      <DependentUpon>post.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news\blog\post.aspx.designer.cs">
+      <DependentUpon>post.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news\events\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news\events\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news\events\event.aspx.cs">
       <DependentUpon>event.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="news\event.aspx.designer.cs">
+    <Compile Include="news\events\event.aspx.designer.cs">
       <DependentUpon>event.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -347,25 +363,25 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="theclub\FAQ\Default.aspx.cs">
+    <Compile Include="theclub\faq\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="theclub\FAQ\Default.aspx.designer.cs">
+    <Compile Include="theclub\faq\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="theclub\Membership\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="theclub\Membership\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="theclub\Roster\Default.aspx.cs">
+    <Compile Include="theclub\membership\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="theclub\Roster\Default.aspx.designer.cs">
+    <Compile Include="theclub\membership\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="theclub\roster\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="theclub\roster\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
   </ItemGroup>

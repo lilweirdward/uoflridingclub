@@ -12,237 +12,214 @@
 
         <p>We like to keep our designs pretty simple, so we've developed two options for the front and back of your shirt, depending on whether or not you choose to have it embroidered. Here are the different options:</p>
 
+        <div class="row">
+            <div class="column size-9">
+                <p>Front design on screen-printed items</p>
+                <p>Full back design on embroidered items</p>
+                <img style="height: 118px;" src="/images/shirt-front1.jpg" />
+                <img style="height: 118px;" src="/images/shirt-front2.png" />
+            </div>
+            <div class="column size-3">
+                <p>Front chest design on all embroidered items</p><br />
+                <img style="height: 118px;" src="/images/shirt-back.png" />
+            </div>
+        </div>
+
         <h1>Embroidered Items</h1>
 
         <div class="row">
-            <div class="column size-6">
-                <h2>Front</h2>
-                <img src="/images/shirt-back.png" />
-            </div>
-            <div class="column size-6">
-                <h2>Back</h2>
-                <img class="t-shirt" src="/images/shirt-front2.png" />
-            </div>
-        </div>
-
-        <div class="row set-height">
-            <img class="t-shirt border" src="/images/shirts/winter-jacket-female.png" />
-            <div style="float: left; width: 30%; margin-right: 2rem;">
+            <div class="column size-4">
+                <img class="t-shirt border" src="/images/shirts/winter-jacket-female.png" />
                 <h2>Winter Jacket</h2>
                 <p>Port Authority Ladies Brushstroke Print Insulated Jacket. L320</p>
+                <p>
+                    Color: 
+                    <select>
+                        <option>Black</option>
+                    </select>
+                </p>
+                <p>
+                    Sizes:
+                    <select>
+                        <option>XS</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </p>
+                <p>Price: $80.00</p>
+                <a href="#" class="button">Add to Cart</a>
             </div>
-            <p>
-                Color: 
-                <select>
-                    <option>Black</option>
-                </select>
-            </p>
-            <p>
-                Sizes:
-                <select>
-                    <option>XS</option>
-                    <option>S</option>
-                    <option>M</option>
-                    <option>L</option>
-                    <option>XL</option>
-                </select>
-            </p>
-            <p>Price: $80.00</p><br /><br />
-            <a href="#" class="button">Add to Cart</a>
-        </div>
-
-        <div class="row set-height">
-            <img class="t-shirt border" src="/images/shirts/fleece-zip-female.png" />
-            <div style="float: left; width: 30%; margin-right: 2rem;">
+            <div class="column size-4">
+                <img class="t-shirt border" src="/images/shirts/fleece-zip-female.png" />
                 <h2>Fleece Zip</h2>
                 <p>This shirt doesn't actually have any description :(</p>
+                <p>
+                    Color: 
+                    <select>
+                        <option>Black</option>
+                        <option>Grey</option>
+                    </select>
+                </p>
+                <p>
+                    Sizes:
+                    <select>
+                        <option>XS</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </p>
+                <p>Price: $50.00</p>
+                <a href="#" class="button">Add to Cart</a>
             </div>
-            <p>
-                Color: 
-                <select>
-                    <option>Black</option>
-                    <option>Grey</option>
-                </select>
-            </p>
-            <p>
-                Sizes:
-                <select>
-                    <option>XS</option>
-                    <option>S</option>
-                    <option>M</option>
-                    <option>L</option>
-                    <option>XL</option>
-                </select>
-            </p>
-            <p>Price: $50.00</p><br /><br />
-            <a href="#" class="button">Add to Cart</a>
-        </div>
-
-        <div class="row set-height">
-            <img class="t-shirt border" src="/images/shirts/soft-shell-female.png" />
-            <div style="float: left; width: 30%; margin-right: 2rem;">
+            <div class="column size-4">
+                <img class="t-shirt border" src="/images/shirts/soft-shell-female.png" />
                 <h2>Soft Shell</h2>
                 <p>Port Authority Ladies Brushstroke Print Insulated Jacket. L320</p>
+                <p>
+                    Color: 
+                    <select>
+                        <option>Black</option>
+                    </select>
+                </p>
+                <p>
+                    Sizes:
+                    <select>
+                        <option>XS</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </p>
+                <p>Price: $50.00</p>
+                <a href="#" class="button">Add to Cart</a>
             </div>
-            <p>
-                Color: 
-                <select>
-                    <option>Black</option>
-                </select>
-            </p>
-            <p>
-                Sizes:
-                <select>
-                    <option>XS</option>
-                    <option>S</option>
-                    <option>M</option>
-                    <option>L</option>
-                    <option>XL</option>
-                </select>
-            </p>
-            <p>Price: $50.00</p><br /><br />
-            <a href="#" class="button">Add to Cart</a>
         </div>
 
-        <div class="row set-height">
-            <img class="t-shirt border" src="/images/shirts/quarter-zip-female.png" />
-            <div style="float: left; width: 30%; margin-right: 2rem;">
+        <div class="row">
+            <div class="column size-4">
+                <img class="t-shirt border" src="/images/shirts/quarter-zip-female.png" />
                 <h2>Quarter Zip</h2>
                 <p>Sport-Tek &reg; - Ladies 1/4-Zip Sweatshirt. LST253</p>
+                <p>
+                    Color: 
+                    <select>
+                        <option>Black</option>
+                        <option>Grey</option>
+                    </select>
+                </p>
+                <p>
+                    Sizes:
+                    <select>
+                        <option>XS</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </p>
+                <p>Price: $37.00</p><br /><br />
+                <a href="#" class="button">Add to Cart</a>
             </div>
-            <p>
-                Color: 
-                <select>
-                    <option>Black</option>
-                    <option>Grey</option>
-                </select>
-            </p>
-            <p>
-                Sizes:
-                <select>
-                    <option>XS</option>
-                    <option>S</option>
-                    <option>M</option>
-                    <option>L</option>
-                    <option>XL</option>
-                </select>
-            </p>
-            <p>Price: $37.00</p><br /><br />
-            <a href="#" class="button">Add to Cart</a>
-        </div>
-
-        <div class="row set-height">
-            <img class="t-shirt border" src="/images/shirts/puffy-vest-female.png" />
-            <div style="float: left; width: 30%; margin-right: 2rem;">
+            <div class="column size-4">
+                <img class="t-shirt border" src="/images/shirts/puffy-vest-female.png" />
                 <h2>Puffy Vest</h2>
                 <p>Port Authority &reg; - Ladies Puffy Vest. L709</p>
+                <p>
+                    Color: 
+                    <select>
+                        <option>Black</option>
+                        <option>Grey</option>
+                    </select>
+                </p>
+                <p>
+                    Sizes:
+                    <select>
+                        <option>XS</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </p>
+                <p>Price: $47.00</p><br /><br />
+                <a href="#" class="button">Add to Cart</a>
             </div>
-            <p>
-                Color: 
-                <select>
-                    <option>Black</option>
-                    <option>Grey</option>
-                </select>
-            </p>
-            <p>
-                Sizes:
-                <select>
-                    <option>XS</option>
-                    <option>S</option>
-                    <option>M</option>
-                    <option>L</option>
-                    <option>XL</option>
-                </select>
-            </p>
-            <p>Price: $47.00</p><br /><br />
-            <a href="#" class="button">Add to Cart</a>
-        </div>
-
-        <div class="row set-height">
-            <img class="t-shirt border" src="/images/shirts/polo-female.png" />
-            <div style="float: left; width: 30%; margin-right: 2rem;">
+            <div class="column size-4">
+                <img class="t-shirt border" src="/images/shirts/polo-female.png" />
                 <h2>Polo</h2>
                 <p>Sport Tek &reg; - Vector Sport - Wick &reg; Polo. LST650</p>
+                <p>
+                    Color: 
+                    <select>
+                        <option>Black w/ Red Detail</option>
+                        <option>Red w/ White Detail</option>
+                    </select>
+                </p>
+                <p>
+                    Sizes:
+                    <select>
+                        <option>XS</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </p>
+                <p>Price: $32.00</p><br /><br />
+                <a href="#" class="button">Add to Cart</a>
             </div>
-            <p>
-                Color: 
-                <select>
-                    <option>Black w/ Red Detail</option>
-                    <option>Red w/ White Detail</option>
-                </select>
-            </p>
-            <p>
-                Sizes:
-                <select>
-                    <option>XS</option>
-                    <option>S</option>
-                    <option>M</option>
-                    <option>L</option>
-                    <option>XL</option>
-                </select>
-            </p>
-            <p>Price: $32.00</p><br /><br />
-            <a href="#" class="button">Add to Cart</a>
         </div>
 
-        <div class="row set-height">
-            <img class="t-shirt border" src="/images/shirts/hat.gif" />
-            <div style="float: left; width: 30%; margin-right: 2rem;">
+        <div class="row">
+            <div class="column size-4">
+                <img class="t-shirt border" src="/images/shirts/hat.gif" />
                 <h2>Hat</h2>
                 <p>Port &amp; Company &reg; - Washed Twill Sandwich Bill Cap. CP79</p>
+                <p>
+                    Color: 
+                    <select>
+                        <option>Black</option>
+                    </select>
+                </p>
+                <p>Price: $13.00</p><br /><br />
+                <a href="#" class="button">Add to Cart</a>
             </div>
-            <p>
-                Color: 
-                <select>
-                    <option>Black</option>
-                </select>
-            </p>
-            <p>Price: $13.00</p><br /><br />
-            <a href="#" class="button">Add to Cart</a>
-        </div>
-
-        <div class="row set-height">
-            <img class="t-shirt border" src="/images/shirts/headband.gif" />
-            <div style="float: left; width: 30%;">
+            <div class="column size-4">
+                <img class="t-shirt border" src="/images/shirts/headband.gif" />
                 <h2>Headband</h2>
                 <p>Port Authority &reg; - R-Tek &reg; Stretch Fleece Headband. C910</p>
+                <p>
+                    Color: 
+                    <select>
+                        <option>Black</option>
+                        <option>Grey</option>
+                    </select>
+                </p>
+                <p>Price: $11.00</p><br /><br />
+                <a href="#" class="button">Add to Cart</a>
             </div>
-            <p>
-                Color: 
-                <select>
-                    <option>Black</option>
-                    <option>Grey</option>
-                </select>
-            </p>
-            <p>Price: $11.00</p><br /><br />
-            <a href="#" class="button">Add to Cart</a>
-        </div>
-
-        <div class="row set-height">
-            <img class="t-shirt border" src="/images/shirts/dufflebag.gif" />
-            <div style="float: left; width: 30%; margin-right: 2rem;">
+            <div class="column size-4">
+                <img class="t-shirt border" src="/images/shirts/dufflebag.gif" />
                 <h2>Dufflebag</h2>
                 <p>OGIO &reg; - Big Dome Duffle. 108087</p>
+                <p>
+                    Color: 
+                    <select>
+                        <option>Red w/ Black Detail</option>
+                        <option>Black w/ White Detail</option>
+                    </select>
+                </p>
+                <p>Price: $39.00</p><br /><br />
+                <a href="#" class="button">Add to Cart</a>
             </div>
-            <p>
-                Color: 
-                <select>
-                    <option>Red w/ Black Detail</option>
-                    <option>Black w/ White Detail</option>
-                </select>
-            </p>
-            <p>Price: $39.00</p><br /><br />
-            <a href="#" class="button">Add to Cart</a>
         </div>
 
         <h1>Screen-Printed Items</h1>
-
-        <div class="row">
-            <div class="column size-12">
-                <h2>Front</h2>
-                <img src="/images/shirt-front1.jpg" />
-            </div>
-        </div>
 
         <div class="row">
             <div class="column size-4">

@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EquineClub.news {
+namespace EquineClub.news.blog {
     
     
-    public partial class Default {
+    public partial class post {
     }
 }
