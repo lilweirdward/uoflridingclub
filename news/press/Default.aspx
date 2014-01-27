@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="container logo" style="border-bottom: none;">
+    <div class="container logo news" style="border-bottom: none;">
 	</div>
 	<div class="container">
 		
