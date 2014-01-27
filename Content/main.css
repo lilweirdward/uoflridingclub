@@ -52,7 +52,7 @@ ul#theclub-subnav {
 }
 
 ul#news-subnav {
-    left: 28%;
+    left: 32.5%;
 }
 
 li.has-subnav:hover > ul.subnav-levelone {
@@ -306,6 +306,10 @@ a.header.sub:hover {
 
 a.header.sub.two {
 	padding: 1rem 0.5rem;
+}
+
+a.fc-event {
+    color: white;
 }
 
 .no-href {

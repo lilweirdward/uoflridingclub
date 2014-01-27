@@ -10,6 +10,6 @@
 namespace EquineClub.news {
     
     
-    public partial class _event {
+    public partial class Default {
     }
 }

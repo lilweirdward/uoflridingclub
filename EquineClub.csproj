@@ -182,10 +182,9 @@
     <Content Include="images\western-team.JPG" />
     <Content Include="images\wide-header.jpg" />
     <Content Include="images\wide-header.png" />
-    <Content Include="news\blog\Default.aspx" />
-    <Content Include="news\blog\post.aspx" />
-    <Content Include="news\events\Default.aspx" />
-    <Content Include="news\events\event.aspx" />
+    <Content Include="news\press\Default.aspx" />
+    <Content Include="news\press\post.aspx" />
+    <Content Include="news\Default.aspx" />
     <Content Include="packages.config" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -229,33 +228,26 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="news\blog\Default.aspx.cs">
+    <Compile Include="news\press\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="news\blog\Default.aspx.designer.cs">
+    <Compile Include="news\press\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="news\blog\post.aspx.cs">
+    <Compile Include="news\press\post.aspx.cs">
       <DependentUpon>post.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="news\blog\post.aspx.designer.cs">
+    <Compile Include="news\press\post.aspx.designer.cs">
       <DependentUpon>post.aspx</DependentUpon>
     </Compile>
-    <Compile Include="news\events\Default.aspx.cs">
+    <Compile Include="news\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="news\events\Default.aspx.designer.cs">
+    <Compile Include="news\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="news\events\event.aspx.cs">
-      <DependentUpon>event.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="news\events\event.aspx.designer.cs">
-      <DependentUpon>event.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

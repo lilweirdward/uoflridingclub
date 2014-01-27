@@ -5,34 +5,49 @@
     <div class="container logo huntseat" style="border-bottom: none;">
 	</div>
 	<div class="container">
-		<h1>Welcome!</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tortor lacus. Maecenas luctus neque et felis hendrerit mattis. Cras neque augue, mollis eget ullamcorper non, sollicitudin sit amet nulla. Nullam dapibus sit amet tortor ut volutpat. Fusce quam lectus, accumsan ac erat nec, gravida varius leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce aliquet, diam eu sodales bibendum, arcu lorem eleifend est, tristique ultrices metus nisl ut enim. Maecenas eget molestie odio, vitae tempor lectus. Nulla posuere, nisi et hendrerit tincidunt, sem tortor rhoncus neque, vitae cursus est nunc non sapien. Duis eu tincidunt nisi, vitae vulputate lectus. Curabitur eu pellentesque neque. Aenean ultricies, felis sit amet ultrices aliquet, mauris felis suscipit est, ut fringilla orci nisl non mi. Ut eget massa risus. Nunc non felis quis augue faucibus congue. Maecenas arcu sapien, bibendum et neque vitae, scelerisque suscipit lacus. Fusce vitae pellentesque lacus, at congue magna.</p>
+		<p>
+            Stone Place Stables
+            <br />
+            7718 Rose Island Road
+            <br />
+            Prospect, KY 40059
+		</p>
 
 		<h1>Our Team</h1>
 
         <div class="row">
             <div class="column size-4">
                 <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
-                <h2>Mickey Mouse</h2>
-                <p>Some info about me here</p>
-                <p>Possibly more info about me here</p>
+                <h2>Coach: Sarah Younger</h2>
+                <p><a href="mailto:sarah.younger@yahoo.com">sarah.younger@yahoo.com</a></p>
+                <p><a href="tel:5029380556">(502) 938-0556</a></p>
             </div>
             <div class="column size-4">
                 <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
-                <h2>Minnie Mouse</h2>
-                <p>Some info about me here</p>
-                <p>Possibly more info about me here</p>
+                <h2>President: Mimi Abbott</h2>
+                <p><a href="mailto:mimiabbottUofL@gmail.com">mimiabbottUofL@gmail.com</a></p>
+                <p><a href="tel:3148526308">(314) 852-6308</a></p>
             </div>
             <div class="column size-4">
                 <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
-                <h2>Melody Moo</h2>
-                <p>Some info about me here</p>
-                <p>Possibly more info about me here</p>
+                <h2>Vice President: Jamie Humphries</h2>
+                <p><a href="mailto:jlhump07@louisville.edu">jlhump07@louisville.edu</a></p>
+                <p><a href="tel:3015255035">(301) 525-5035</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column size-4">
+                <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
+                <h2>Captain: Megan Devine</h2>
+                <p><a href="mailto:mhdevi01@louisville.edu">mhdevi01@louisville.edu</a></p>
+                <p><a href="tel:5167216376">(516) 721-6376</a></p>
             </div>
         </div>
 
-		<h1 style="color: red;">DISCLAIMER: THIS SUBDOMAIN IS FOR TESTING PURPOSES ONLY. ALL IMAGES ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS</h1>
-	</div>
+        <p>
+            <em>*Costs of Membership Packages vary by team and semester</em>
+        </p>
+    </div>
 
 </asp:Content>
 

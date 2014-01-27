@@ -6,16 +6,57 @@
 	</div>
 	<div class="container">
 		<h1>Welcome!</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tortor lacus. Maecenas luctus neque et felis hendrerit mattis. Cras neque augue, mollis eget ullamcorper non, sollicitudin sit amet nulla. Nullam dapibus sit amet tortor ut volutpat. Fusce quam lectus, accumsan ac erat nec, gravida varius leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce aliquet, diam eu sodales bibendum, arcu lorem eleifend est, tristique ultrices metus nisl ut enim. Maecenas eget molestie odio, vitae tempor lectus. Nulla posuere, nisi et hendrerit tincidunt, sem tortor rhoncus neque, vitae cursus est nunc non sapien. Duis eu tincidunt nisi, vitae vulputate lectus. Curabitur eu pellentesque neque. Aenean ultricies, felis sit amet ultrices aliquet, mauris felis suscipit est, ut fringilla orci nisl non mi. Ut eget massa risus. Nunc non felis quis augue faucibus congue. Maecenas arcu sapien, bibendum et neque vitae, scelerisque suscipit lacus. Fusce vitae pellentesque lacus, at congue magna.</p>
+		<p>
+            The Western Equestrian Team is a part of the Intercollegiate Horse Show Association (IHSA) in Zone 6 Region 3. The 
+            IHSA promotes competition for riders of all skill levels, who compete individually and as teams at regional, zone, 
+            and national levels. The University of Louisville Hunt Seat Team competes against other schools in the area, including 
+            University of Kentucky, University of Cincinnati, Morehead State University, Midway College, Xavier University, Marshall 
+            University, Northern Kentucky University, Georgetown College and Transylvania University. 
+		</p>
 
-		<p>Sed diam mauris, tincidunt ac nulla a, aliquet sollicitudin justo. Nam lorem mi, ultricies feugiat nisl vitae, fringilla ultricies turpis. Suspendisse quis nulla condimentum, egestas leo quis, vehicula enim. Curabitur vel enim sit amet nisi luctus placerat. Mauris eu aliquet leo, sed blandit nibh. Duis vulputate, tortor eget vestibulum laoreet, leo urna facilisis dui, ut gravida dolor risus eget neque. Donec gravida egestas turpis. Sed vel ultricies elit, sed tristique quam. Donec egestas tincidunt turpis, eu sagittis est pharetra eget. Suspendisse venenatis auctor enim et luctus. Pellentesque vestibulum lacinia viverra. Nam luctus neque at malesuada porta. Aenean feugiat ornare mi eget ornare. In ullamcorper adipiscing leo, at semper tortor accumsan in. Vestibulum cursus mauris elementum lacus aliquam suscipit.</p>
+		<p>
+            Our team currently rides out of Rea Quarter Horses, in Shelbyville, KY with Coach, Rusty Rea. Members are required to 
+            take lessons with the University of Louisville Equestrian Team Coach. At the minimum, riders must take a lesson the week 
+            before a show. For students without transportation, there are opportunities to carpool and plenty of communication between 
+            members to share apparel and equipment if necessary. No prior experience is necessary to be on the Equestrian Teams.
+		</p>
 
-		<p>Quisque at tempus ipsum, vel elementum mi. Vestibulum consequat convallis quam vitae sollicitudin. Donec sed diam ut eros luctus rutrum. Sed ac ligula in libero cursus blandit. Aenean id sodales felis. Vivamus malesuada a nisi vel bibendum. Pellentesque nunc enim, porttitor ut urna vel, ullamcorper vehicula risus. Quisque accumsan dolor lorem, at egestas lorem rutrum id. Cras odio sem, eleifend et elit eget, dapibus pulvinar eros. In mollis interdum massa, in tristique neque molestie ut. Cras congue, quam nec lacinia fringilla, orci velit lobortis dolor, eget vulputate mi lorem at mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu felis a justo dapibus eleifend. In nulla lacus, tincidunt ac nunc eget, iaculis eleifend quam.</p>
+		<h1>Events</h1>
+  
+        <div class="row">
+            <div class="column size-12">
+                <div id="calendar" />
+            </div>
+        </div>
+          
+        <link rel='stylesheet' type='text/css' href='/Content/fullcalendar.css' />
+        <script type='text/javascript' src='/Scripts/fullcalendar.js'></script>
+        <script type='text/javascript' src='/Scripts/gcal.js'></script>
+        <script type='text/javascript'>
 
-		<p>Sed quis varius velit, nec dictum turpis. Maecenas ut mi aliquet, imperdiet diam blandit, mollis eros. Donec sit amet volutpat massa, ut iaculis lorem. In porta nisl ut rhoncus molestie. Donec et viverra mi. Cras tempus orci et iaculis iaculis. Pellentesque sed tincidunt tortor, porttitor euismod ipsum. Duis venenatis eros vel libero tincidunt ultrices. Nunc sit amet enim massa. Mauris mollis ipsum ut dapibus pulvinar. Quisque sit amet risus sed nisi dictum sodales.</p>
+            $('#calendar').fullCalendar({
+                events: [
+                {
+                    title: 'event1',
+                    start: '2014-01-01',
+                    url: 'event.aspx'
+                },
+                {
+                    title: 'event2',
+                    start: '2014-01-05',
+                    end: '2014-01-07'
+                },
+                {
+                    title: 'event3',
+                    start: '2014-01-09 12:30:00',
+                    allDay: false // will make the time show
+                }
+                ]
+            });
 
-		<p>Proin mattis faucibus mi id viverra. Proin vitae facilisis metus. Morbi non erat vel nisl volutpat lobortis. Quisque ultricies, felis eu semper vestibulum, ipsum eros bibendum lacus, vitae aliquam lacus arcu vitae metus. Duis eleifend ipsum elit, at ultricies tortor sodales et. Quisque placerat magna id hendrerit lobortis. Sed vitae velit feugiat, ultricies leo eu, dignissim erat. Vestibulum sagittis posuere erat id sagittis. Ut auctor orci ullamcorper velit viverra, sit amet venenatis lacus pretium. Nulla hendrerit, tortor quis dapibus scelerisque, leo justo sollicitudin purus, id cursus augue arcu ut turpis.</p>
-		<h1 style="color: red;">DISCLAIMER: THIS SUBDOMAIN IS FOR TESTING PURPOSES ONLY. ALL IMAGES ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS</h1>
+        </script>
+        
+        <h1 style="color: red;">DISCLAIMER: THIS SUBDOMAIN IS FOR TESTING PURPOSES ONLY. ALL IMAGES ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS</h1>
 	</div>
 
 </asp:Content>

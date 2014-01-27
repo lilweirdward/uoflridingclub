@@ -5,33 +5,40 @@
     <div class="container logo western" style="border-bottom: none;">
 	</div>
 	<div class="container">
-		<h1>Welcome!</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tortor lacus. Maecenas luctus neque et felis hendrerit mattis. Cras neque augue, mollis eget ullamcorper non, sollicitudin sit amet nulla. Nullam dapibus sit amet tortor ut volutpat. Fusce quam lectus, accumsan ac erat nec, gravida varius leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce aliquet, diam eu sodales bibendum, arcu lorem eleifend est, tristique ultrices metus nisl ut enim. Maecenas eget molestie odio, vitae tempor lectus. Nulla posuere, nisi et hendrerit tincidunt, sem tortor rhoncus neque, vitae cursus est nunc non sapien. Duis eu tincidunt nisi, vitae vulputate lectus. Curabitur eu pellentesque neque. Aenean ultricies, felis sit amet ultrices aliquet, mauris felis suscipit est, ut fringilla orci nisl non mi. Ut eget massa risus. Nunc non felis quis augue faucibus congue. Maecenas arcu sapien, bibendum et neque vitae, scelerisque suscipit lacus. Fusce vitae pellentesque lacus, at congue magna.</p>
+		<p>
+            Rea Quarter Horses
+            <br />
+            483 Locust Grove Rd
+            <br />
+            Shelbyville, KY 40065
+		</p>
 
-        <h1>Our Team</h1>
+		<h1>Our Team</h1>
 
         <div class="row">
             <div class="column size-4">
                 <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
-                <h2>Mickey Mouse</h2>
-                <p>Some info about me here</p>
-                <p>Possibly more info about me here</p>
+                <h2>Coach: Rusty Rea</h2>
+                <p><a href="mailto:rreaqh@yahoo.com">rreaqh@yahoo.com</a></p>
+                <p><a href="tel:5027779302">(502) 777-9302</a></p>
             </div>
             <div class="column size-4">
                 <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
-                <h2>Minnie Mouse</h2>
-                <p>Some info about me here</p>
-                <p>Possibly more info about me here</p>
+                <h2>President: Taylor Ferguson</h2>
+                <p><a href="mailto:t0ferg01@louisville.edu">t0ferg01@louisville.edu</a></p>
+                <p><a href="tel:7324075546">(732) 407-5546</a></p>
             </div>
             <div class="column size-4">
                 <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
-                <h2>Melody Moo</h2>
-                <p>Some info about me here</p>
-                <p>Possibly more info about me here</p>
+                <h2>Vice President: Lexie Heaverlo</h2>
+                <p><a href="mailto:a0heav01@louisville.edu">a0heav01@louisville.edu</a></p>
+                <p><a href="tel:2523736034">(252) 373-6034</a></p>
             </div>
         </div>
 
-		<h1 style="color: red;">DISCLAIMER: THIS SUBDOMAIN IS FOR TESTING PURPOSES ONLY. ALL IMAGES ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS</h1>
+        <p>
+            <em>*Costs of Membership Packages vary by team and semester</em>
+        </p>
 	</div>
 
 </asp:Content>

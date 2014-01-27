@@ -10,12 +10,42 @@
 
 		<p>Sed diam mauris, tincidunt ac nulla a, aliquet sollicitudin justo. Nam lorem mi, ultricies feugiat nisl vitae, fringilla ultricies turpis. Suspendisse quis nulla condimentum, egestas leo quis, vehicula enim. Curabitur vel enim sit amet nisi luctus placerat. Mauris eu aliquet leo, sed blandit nibh. Duis vulputate, tortor eget vestibulum laoreet, leo urna facilisis dui, ut gravida dolor risus eget neque. Donec gravida egestas turpis. Sed vel ultricies elit, sed tristique quam. Donec egestas tincidunt turpis, eu sagittis est pharetra eget. Suspendisse venenatis auctor enim et luctus. Pellentesque vestibulum lacinia viverra. Nam luctus neque at malesuada porta. Aenean feugiat ornare mi eget ornare. In ullamcorper adipiscing leo, at semper tortor accumsan in. Vestibulum cursus mauris elementum lacus aliquam suscipit.</p>
 
-		<p>Quisque at tempus ipsum, vel elementum mi. Vestibulum consequat convallis quam vitae sollicitudin. Donec sed diam ut eros luctus rutrum. Sed ac ligula in libero cursus blandit. Aenean id sodales felis. Vivamus malesuada a nisi vel bibendum. Pellentesque nunc enim, porttitor ut urna vel, ullamcorper vehicula risus. Quisque accumsan dolor lorem, at egestas lorem rutrum id. Cras odio sem, eleifend et elit eget, dapibus pulvinar eros. In mollis interdum massa, in tristique neque molestie ut. Cras congue, quam nec lacinia fringilla, orci velit lobortis dolor, eget vulputate mi lorem at mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu felis a justo dapibus eleifend. In nulla lacus, tincidunt ac nunc eget, iaculis eleifend quam.</p>
+		<h1>Events</h1>
+  
+        <div class="row">
+            <div class="column size-12">
+                <div id="calendar" />
+            </div>
+        </div>
+          
+        <link rel='stylesheet' type='text/css' href='/Content/fullcalendar.css' />
+        <script type='text/javascript' src='/Scripts/fullcalendar.js'></script>
+        <script type='text/javascript' src='/Scripts/gcal.js'></script>
+        <script type='text/javascript'>
 
-		<p>Sed quis varius velit, nec dictum turpis. Maecenas ut mi aliquet, imperdiet diam blandit, mollis eros. Donec sit amet volutpat massa, ut iaculis lorem. In porta nisl ut rhoncus molestie. Donec et viverra mi. Cras tempus orci et iaculis iaculis. Pellentesque sed tincidunt tortor, porttitor euismod ipsum. Duis venenatis eros vel libero tincidunt ultrices. Nunc sit amet enim massa. Mauris mollis ipsum ut dapibus pulvinar. Quisque sit amet risus sed nisi dictum sodales.</p>
+            $('#calendar').fullCalendar({
+                events: [
+                {
+                    title: 'event1',
+                    start: '2014-01-01',
+                    url: 'event.aspx'
+                },
+                {
+                    title: 'event2',
+                    start: '2014-01-05',
+                    end: '2014-01-07'
+                },
+                {
+                    title: 'event3',
+                    start: '2014-01-09 12:30:00',
+                    allDay: false // will make the time show
+                }
+                ]
+            });
 
-		<p>Proin mattis faucibus mi id viverra. Proin vitae facilisis metus. Morbi non erat vel nisl volutpat lobortis. Quisque ultricies, felis eu semper vestibulum, ipsum eros bibendum lacus, vitae aliquam lacus arcu vitae metus. Duis eleifend ipsum elit, at ultricies tortor sodales et. Quisque placerat magna id hendrerit lobortis. Sed vitae velit feugiat, ultricies leo eu, dignissim erat. Vestibulum sagittis posuere erat id sagittis. Ut auctor orci ullamcorper velit viverra, sit amet venenatis lacus pretium. Nulla hendrerit, tortor quis dapibus scelerisque, leo justo sollicitudin purus, id cursus augue arcu ut turpis.</p>
-		<h1 style="color: red;">DISCLAIMER: THIS SUBDOMAIN IS FOR TESTING PURPOSES ONLY. ALL IMAGES ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS</h1>
+        </script>
+        
+        <h1 style="color: red;">DISCLAIMER: THIS SUBDOMAIN IS FOR TESTING PURPOSES ONLY. ALL IMAGES ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS</h1>
 	</div>
 
 </asp:Content>

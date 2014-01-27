@@ -5,10 +5,11 @@
     <div class="container logo" style="border-bottom: none;">
 	</div>
 	<div class="container">
-		<h1>Welcome!</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tortor lacus. Maecenas luctus neque et felis hendrerit mattis. Cras neque augue, mollis eget ullamcorper non, sollicitudin sit amet nulla. Nullam dapibus sit amet tortor ut volutpat. Fusce quam lectus, accumsan ac erat nec, gravida varius leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce aliquet, diam eu sodales bibendum, arcu lorem eleifend est, tristique ultrices metus nisl ut enim. Maecenas eget molestie odio, vitae tempor lectus. Nulla posuere, nisi et hendrerit tincidunt, sem tortor rhoncus neque, vitae cursus est nunc non sapien. Duis eu tincidunt nisi, vitae vulputate lectus. Curabitur eu pellentesque neque. Aenean ultricies, felis sit amet ultrices aliquet, mauris felis suscipit est, ut fringilla orci nisl non mi. Ut eget massa risus. Nunc non felis quis augue faucibus congue. Maecenas arcu sapien, bibendum et neque vitae, scelerisque suscipit lacus. Fusce vitae pellentesque lacus, at congue magna.</p>
-
 		<h1>Gallery</h1>
+
+        <p>
+            Please view our gallery to see photos of Riding & Racing Club events and activities!
+        </p>
 
         <div class="gallery">
             <div class="row pictures main">
@@ -46,9 +47,18 @@
                 </div>
             </div>
         </div>
-        
-        <h1 style="color: red;">DISCLAIMER: THIS SUBDOMAIN IS FOR TESTING PURPOSES ONLY. ALL IMAGES ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS</h1>
-	</div>
+
+        <h1>Ed Van Meter</h1>
+
+        <div class="row set-height">
+            <img class="t-shirt" src="/images/profile-pic.png" />
+            <p>
+                We are very lucky to coordinate with local photographer, Ed Van Meter at out events. Ed is an excellent photographer 
+                and many of his photos are featured on our website and official social media pages. Please view Ed’s gallery at 
+                <a href="http://racingpaparazzi.smugmug.com">his website</a>.
+            </p>
+        </div>
+    </div>
 
 </asp:Content>
 
