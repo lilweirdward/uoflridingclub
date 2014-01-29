@@ -130,17 +130,20 @@
     <Content Include="Content\main.css" />
     <Content Include="gallery\Default.aspx" />
     <Content Include="images\about-image.jpg" />
+    <Content Include="images\Apparel-1.jpg" />
     <Content Include="images\background-and-border %28PCdelCottontail%27s conflicted copy 2013-12-23%29.jpg" />
     <Content Include="images\background-and-border.jpg" />
     <Content Include="images\background.jpg" />
     <Content Include="images\background.png" />
     <Content Include="images\border.jpg" />
+    <Content Include="images\Gallery.jpg" />
     <Content Include="images\header-bottom.png" />
     <Content Include="images\hunt-seat.JPG" />
     <Content Include="images\line.png" />
     <Content Include="images\logo.jpg" />
     <Content Include="images\main-background.jpg" />
     <Content Include="images\main-image.jpg" />
+    <Content Include="images\news.jpg" />
     <Content Include="images\pennant.png" />
     <Content Include="images\pennant.svg" />
     <Content Include="images\pennant2.png" />
@@ -178,6 +181,7 @@
     <Content Include="images\shirts\winter-jacket-female.gif" />
     <Content Include="images\shirts\winter-jacket-female.png" />
     <Content Include="images\shirts\winter-jacket-male.png" />
+    <Content Include="images\Sponsorship.jpg" />
     <Content Include="images\stock-photo-big-red-ribbons-set-isolated-on-white-background-99495380.jpg" />
     <Content Include="images\western-team.JPG" />
     <Content Include="images\wide-header.jpg" />
@@ -191,6 +195,8 @@
     <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\fullcalendar.js" />
     <Content Include="Scripts\gcal.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
     <Content Include="sponsorship\Default.aspx" />
     <Content Include="team\huntseat\Default.aspx" />
     <Content Include="team\huntseat\membership\Default.aspx" />
