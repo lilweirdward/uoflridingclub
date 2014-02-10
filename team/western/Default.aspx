@@ -28,6 +28,17 @@
                 <div id="calendar" />
             </div>
         </div>
+
+        <br style="clear: both;" />
+        
+		<p style="text-align: center; margin-top: 2rem;">
+            <strong>Our Address</strong> <br />
+            Rea Quarter Horses
+            <br />
+            483 Locust Grove Rd
+            <br />
+            Shelbyville, KY 40065
+		</p>
           
         <link rel='stylesheet' type='text/css' href='/Content/fullcalendar.css' />
         <script type='text/javascript' src='/Scripts/fullcalendar.js'></script>

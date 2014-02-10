@@ -33,6 +33,24 @@
                 <div id="calendar" />
             </div>
         </div>
+
+        <h1>Guest Speakers</h1>
+
+        <div class="row set-height">
+            <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
+            <h2>Speaker Name</h2>
+            <p><strong>Description</strong>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pyxidis morior pendo medius, do auctus inflexi, pareo perfusus um cras sua Vernandense sub loricatus. Aro vel novus relevo, te perfusus hos paulatim hae informatio mentis. Maero eloquens loquor proficio, que mercedis uti. Rectus comprobo filia copiae, minime tam lentitudo sua. Exturbo liber opportune via iniectum ea positus iratus scio me arcis iaceo solio. Pia velum hoc cupido qua creta. Rota muto universe hos universus. Alo niveus infra sufficio fas. Os decor advenio via discedo ius protesto, do civitas pungo, facunditas rex universitas arx. Lentis festinatio talus nos aliquanto uti exquisitus, mei vescor comminor, lac moneo motum potum votum. Furs muto coepi perseverantia um illata. Sto excito quasso lacesso vel maior meror. Seu me idem vulgus, purus quo suus, ac praeficio do minimus. At gero praesum tonsum satago eum.</p>
+        </div>
+        <div class="row set-height">
+            <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
+            <h2>Speaker Name</h2>
+            <p><strong>Description</strong>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pyxidis morior pendo medius, do auctus inflexi, pareo perfusus um cras sua Vernandense sub loricatus. Aro vel novus relevo, te perfusus hos paulatim hae informatio mentis. Maero eloquens loquor proficio, que mercedis uti. Rectus comprobo filia copiae, minime tam lentitudo sua. Exturbo liber opportune via iniectum ea positus iratus scio me arcis iaceo solio. Pia velum hoc cupido qua creta. Rota muto universe hos universus. Alo niveus infra sufficio fas. Os decor advenio via discedo ius protesto, do civitas pungo, facunditas rex universitas arx. Lentis festinatio talus nos aliquanto uti exquisitus, mei vescor comminor, lac moneo motum potum votum. Furs muto coepi perseverantia um illata. Sto excito quasso lacesso vel maior meror. Seu me idem vulgus, purus quo suus, ac praeficio do minimus. At gero praesum tonsum satago eum.</p>
+        </div>
+        <div class="row set-height">
+            <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
+            <h2>Speaker Name</h2>
+            <p><strong>Description</strong>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pyxidis morior pendo medius, do auctus inflexi, pareo perfusus um cras sua Vernandense sub loricatus. Aro vel novus relevo, te perfusus hos paulatim hae informatio mentis. Maero eloquens loquor proficio, que mercedis uti. Rectus comprobo filia copiae, minime tam lentitudo sua. Exturbo liber opportune via iniectum ea positus iratus scio me arcis iaceo solio. Pia velum hoc cupido qua creta. Rota muto universe hos universus. Alo niveus infra sufficio fas. Os decor advenio via discedo ius protesto, do civitas pungo, facunditas rex universitas arx. Lentis festinatio talus nos aliquanto uti exquisitus, mei vescor comminor, lac moneo motum potum votum. Furs muto coepi perseverantia um illata. Sto excito quasso lacesso vel maior meror. Seu me idem vulgus, purus quo suus, ac praeficio do minimus. At gero praesum tonsum satago eum.</p>
+        </div>
           
         <link rel='stylesheet' type='text/css' href='/Content/fullcalendar.css' />
         <script type='text/javascript' src='/Scripts/fullcalendar.js'></script>

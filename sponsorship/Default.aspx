@@ -5,8 +5,8 @@
     <div class="container logo sponsorship" style="border-bottom: none;">
 	</div>
 	<div class="container">
-		<h1>Welcome!</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tortor lacus. Maecenas luctus neque et felis hendrerit mattis. Cras neque augue, mollis eget ullamcorper non, sollicitudin sit amet nulla. Nullam dapibus sit amet tortor ut volutpat. Fusce quam lectus, accumsan ac erat nec, gravida varius leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce aliquet, diam eu sodales bibendum, arcu lorem eleifend est, tristique ultrices metus nisl ut enim. Maecenas eget molestie odio, vitae tempor lectus. Nulla posuere, nisi et hendrerit tincidunt, sem tortor rhoncus neque, vitae cursus est nunc non sapien. Duis eu tincidunt nisi, vitae vulputate lectus. Curabitur eu pellentesque neque. Aenean ultricies, felis sit amet ultrices aliquet, mauris felis suscipit est, ut fringilla orci nisl non mi. Ut eget massa risus. Nunc non felis quis augue faucibus congue. Maecenas arcu sapien, bibendum et neque vitae, scelerisque suscipit lacus. Fusce vitae pellentesque lacus, at congue magna.</p>
+		<h1>Sponsorship</h1>
+		<p>Sponsors are a huge part of the existence and continuation of the Riding & Racing Club at the University of Louisville. Sponsorships or donations go towards funding field trips, attending industry events, rider entries, coaches fees, operating expenses and more! Please consider funding this wonderful Recognized Student Organization. Check out <a href="/documents/R&R sponsorship packet 2013-2014.pdf">our sponsorship package</a> for complete details!</p>
 
 		<h1>Our Sponsors</h1>
 
@@ -44,9 +44,7 @@
             <p>Personal info here</p>
             <p>Amount Donated (maybe?): $200.00</p>
         </div>
-        
-        <h1 style="color: red;">DISCLAIMER: THIS SUBDOMAIN IS FOR TESTING PURPOSES ONLY. ALL IMAGES ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS</h1>
-	</div>
+    </div>
 
 </asp:Content>
 

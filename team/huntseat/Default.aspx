@@ -30,6 +30,17 @@
                 <div id="calendar" />
             </div>
         </div>
+
+        <br style="clear: both;" />
+        
+		<p style="text-align: center; margin-top: 2rem;">
+            <strong>Our Address</strong> <br />
+            Stone Place Stables
+            <br />
+            7718 Rose Island Road
+            <br />
+            Prospect, KY 40059
+		</p>
           
         <link rel='stylesheet' type='text/css' href='/Content/fullcalendar.css' />
         <script type='text/javascript' src='/Scripts/fullcalendar.js'></script>
@@ -57,9 +68,7 @@
             });
 
         </script>
-        
-        <h1 style="color: red;">DISCLAIMER: THIS SUBDOMAIN IS FOR TESTING PURPOSES ONLY. ALL IMAGES ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS</h1>
-	</div>
+    </div>
 
 </asp:Content>
 

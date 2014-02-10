@@ -5,23 +5,18 @@
     <div class="container logo huntseat" style="border-bottom: none;">
 	</div>
 	<div class="container">
-		<p>
-            Stone Place Stables
-            <br />
-            7718 Rose Island Road
-            <br />
-            Prospect, KY 40059
-		</p>
-
 		<h1>Our Team</h1>
-
+        
+        <h2>Coach</h2>
+        <div class="row set-height">
+            <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
+            <h2>Coach: Sarah Younger</h2>
+            <p><a href="mailto:sarah.younger@yahoo.com">sarah.younger@yahoo.com</a></p>
+            <p><a href="tel:5029380556">(502) 938-0556</a></p>
+        </div>
+        
+        <h2>Other Members</h2>
         <div class="row">
-            <div class="column size-4">
-                <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
-                <h2>Coach: Sarah Younger</h2>
-                <p><a href="mailto:sarah.younger@yahoo.com">sarah.younger@yahoo.com</a></p>
-                <p><a href="tel:5029380556">(502) 938-0556</a></p>
-            </div>
             <div class="column size-4">
                 <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
                 <h2>President: Mimi Abbott</h2>
@@ -34,8 +29,6 @@
                 <p><a href="mailto:jlhump07@louisville.edu">jlhump07@louisville.edu</a></p>
                 <p><a href="tel:3015255035">(301) 525-5035</a></p>
             </div>
-        </div>
-        <div class="row">
             <div class="column size-4">
                 <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
                 <h2>Captain: Megan Devine</h2>

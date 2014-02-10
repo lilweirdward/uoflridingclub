@@ -5,23 +5,18 @@
     <div class="container logo western" style="border-bottom: none;">
 	</div>
 	<div class="container">
-		<p>
-            Rea Quarter Horses
-            <br />
-            483 Locust Grove Rd
-            <br />
-            Shelbyville, KY 40065
-		</p>
-
 		<h1>Our Team</h1>
 
+        <h2>Coach</h2>
+        <div class="row set-height">
+            <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
+            <h2>Rusty Rea</h2>
+            <p><a href="mailto:rreaqh@yahoo.com">rreaqh@yahoo.com</a></p>
+            <p><a href="tel:5027779302">(502) 777-9302</a></p>
+        </div>
+
+        <h2>Other Members</h2>
         <div class="row">
-            <div class="column size-4">
-                <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
-                <h2>Coach: Rusty Rea</h2>
-                <p><a href="mailto:rreaqh@yahoo.com">rreaqh@yahoo.com</a></p>
-                <p><a href="tel:5027779302">(502) 777-9302</a></p>
-            </div>
             <div class="column size-4">
                 <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
                 <h2>President: Taylor Ferguson</h2>
