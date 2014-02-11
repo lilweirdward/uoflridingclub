@@ -34,4 +34,3 @@ C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\Microsoft.W
 C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\bin\Microsoft.Web.Infrastructure.xml
 C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\obj\Debug\EquineClub.dll
 C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\obj\Debug\EquineClub.pdb
-C:\Users\zachw38\Dropbox\Web Folders\UofL Riding and Racing Club\obj\Debug\EquineClub.csprojResolveAssemblyReference.cache
