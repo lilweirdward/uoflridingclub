@@ -11,8 +11,13 @@
             Please view our gallery to see photos of Riding & Racing Club events and activities!
         </p>
 
-        <div class="gallery">
-            <div class="row pictures main">
+        <div class="galleria">
+            <img src="../images/about-image.jpg" />
+            <img src="../images/hunt-seat.jpg" />
+            <img src="../images/hunt-seat.jpg" />
+            <img src="../images/background.jpg" />
+            <img src="../images/about-image.jpg" />
+            <%--<div class="row pictures main">
                 <div class="column size-12">
                     <img id="main-image" class="gallery main" src="../images/about-image.jpg" />
                 </div>
@@ -45,13 +50,15 @@
                 <div class="column size-3">
                     <img class="gallery" src="../images/about-image.jpg" />
                 </div>
-            </div>
+            </div>--%>
         </div>
 
         <h1>Ed Van Meter</h1>
 
         <div class="row set-height">
-            <img class="t-shirt" src="/images/profile-pic.png" />
+            <div class="wrapper">
+                <img class="t-shirt" src="/images/ed-van-meter.jpg" />
+            </div>
             <p>
                 We are very lucky to coordinate with local photographer, Ed Van Meter at out events. Ed is an excellent photographer 
                 and many of his photos are featured on our website and official social media pages. Please view Ed’s gallery at 
@@ -77,5 +84,9 @@
             });
         });
     </script>
-
+    <script src="/Scripts/galleria/galleria-1.3.5.min.js"></script>
+    <script>
+        Galleria.loadTheme('/Scripts/galleria/themes/classic/galleria.classic.min.js');
+        Galleria.run('.galleria');
+    </script>
 </asp:Content>

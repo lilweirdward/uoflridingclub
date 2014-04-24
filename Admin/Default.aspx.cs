@@ -24,5 +24,11 @@ namespace EquineClub.Admin
                 Response.Redirect("Login.aspx");
             }
         }
+
+        protected void LogOut(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Response.Redirect("Login.aspx");
+        }
     }
 }

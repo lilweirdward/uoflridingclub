@@ -8,7 +8,8 @@
 		<h1>Membership Requirements</h1>
         <p>
             The following are items that you'll need in order to apply for the club and each of the teams, as well as the how to 
-            acquire some of those items.
+            acquire some of those items. All membership forms may be completed on OrgSync(https://orgsync.com/51735/chapter) or 
+            turned in to the R&R folder on the front desk of the Equine Industry Program Wing
         </p>
 
         <h2>Riding &amp; Racing Club</h2>
@@ -122,6 +123,16 @@
         <p>
             <u><strong>Print, read and sign the last page of the Hunt Seat Team Info Packet</strong></u> <br />
             Return signed page to R&R Folder
+        </p>
+
+        <h1>Other Miscellaneous Documents</h1>
+        <p>
+            <u><strong>Release Form (2014-15)</strong></u> <br />
+            <iframe id="viewer1" src="/ViewerJS/#../documents/Release Form 14-15.pdf" width="800" height="566" allowfullscreen webkitallowfullscreen></iframe>
+        </p>
+        <p>
+            <u><strong>Our Constitution</strong></u> <br />
+            <iframe id="viewer2" src="/ViewerJS/#../documents/Consitution-Revised.pdf" width="800" height="566" allowfullscreen webkitallowfullscreen></iframe>
         </p>
     </div>
 

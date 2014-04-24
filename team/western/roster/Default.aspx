@@ -9,7 +9,7 @@
 
         <h2>Coach</h2>
         <div class="row set-height">
-            <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
+            <img class="t-shirt" src="/images/rusty-rea.png" />
             <h2>Rusty Rea</h2>
             <p><a href="mailto:rreaqh@yahoo.com">rreaqh@yahoo.com</a></p>
             <p><a href="tel:5027779302">(502) 777-9302</a></p>

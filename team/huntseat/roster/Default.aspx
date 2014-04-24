@@ -9,7 +9,7 @@
         
         <h2>Coach</h2>
         <div class="row set-height">
-            <img class="t-shirt" src="/images/profile-pic.png" alt="mickey-mouse" />
+            <img class="t-shirt" src="/images/sarah-younger.jpg" />
             <h2>Coach: Sarah Younger</h2>
             <p><a href="mailto:sarah.younger@yahoo.com">sarah.younger@yahoo.com</a></p>
             <p><a href="tel:5029380556">(502) 938-0556</a></p>

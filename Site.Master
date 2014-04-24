@@ -28,6 +28,9 @@
 				            <li>
 					            <a class="header sub" href="/theclub/faq/">FAQ</a>
 				            </li>
+                            <li>
+                                <a class="header sub" href="/theclub/alumni/">Alumni</a>
+                            </li>
 	        		    </ul>
 				    </li>
 				    <li id="teams" class="has-subnav">
